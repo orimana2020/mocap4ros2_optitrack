@@ -26,6 +26,8 @@ Source workspace:
 source install/setup.bash
 ```
 Setup your optitrack configuration:
+the server ip is the same ip of the computer running the optitrack, simply copy the ip from the motive,
+the local ip can be found by the command 'ifconfig' in the terminal (on the local computer of the robot) 
 ```
 mocap_ws/src/mocap4ros2_optitrack/mocap_optitrack_driver/config/mocap_optitrack_driver_params.yaml
 ```
